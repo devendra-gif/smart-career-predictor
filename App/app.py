@@ -10,9 +10,9 @@ st.title("🎓 Smart Career Predictor")
 st.write("Fill in the fields to get your career recommendation:")
 
 # Academic scores
-math = st.slider("Mathematics Score", 0, 100, 50)
-science = st.slider("Science Score", 0, 100, 50)
-language = st.slider("Language Arts Score", 0, 100, 50)
+math = st.slider("Mathematics Score", 0, 10, 5)
+science = st.slider("Science Score", 0, 10, 5)
+language = st.slider("Language Arts Score", 0, 10, 5)
 
 # Cognitive skills
 logical = st.slider("Logical Reasoning", 0, 10, 5)
