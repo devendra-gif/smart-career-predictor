@@ -3,7 +3,7 @@ import pandas as pd
 import pickle
 
 # Load model and label encoder
-model = pickle.load(open('App/career_model.pkl', 'rb'))
+model = pickle.load(open('career_model.pkl', 'rb'))
 label_encoder = pickle.load(open('label_encoder.pkl', 'rb'))
 
 st.title("🎓 Smart Career Predictor")
